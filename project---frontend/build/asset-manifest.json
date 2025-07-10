@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StoreRatingApp/static/css/main.b10d665f.css",
+    "main.js": "/StoreRatingApp/static/js/main.68e240ae.js",
+    "index.html": "/StoreRatingApp/index.html",
+    "main.b10d665f.css.map": "/StoreRatingApp/static/css/main.b10d665f.css.map",
+    "main.68e240ae.js.map": "/StoreRatingApp/static/js/main.68e240ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b10d665f.css",
+    "static/js/main.68e240ae.js"
+  ]
+}

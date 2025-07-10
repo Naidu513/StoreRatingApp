@@ -1,0 +1,29 @@
+
+.rating-stars {
+  font-size: 2em; /* Adjust size of stars */
+  color: #ccc; /* Default color for empty stars */
+  display: flex;
+  gap: 2px; /* Space between stars */
+  margin: 10px 0;
+  cursor: pointer;
+  justify-content: center; /* Center stars in the container */
+}
+
+.rating-stars .star {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.rating-stars .star.filled {
+  color: var(--accent-color); /* Color for filled stars */
+}
+
+.rating-stars .star:hover {
+  color: var(--accent-color);
+  /* Optional: Add a slight scale effect on hover */
+  transform: scale(1.1);
+}
+
+.rating-stars .star:hover ~ .star {
+  color: #ccc; /* Stars after the hovered one should reset */
+}
